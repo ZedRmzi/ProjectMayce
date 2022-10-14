@@ -1,0 +1,78 @@
+import React, { useState } from 'react'
+import { isButtonElement } from 'react-router-dom'
+import NavItem from './NavItem'
+import { v4 as uuidv4 } from 'uuid';
+import { useTransition } from 'react';
+
+
+const navList = [
+  { text: "Art", url: "/" },
+  { text: "About", url: "/About" },
+  { text: "More", url: "/More" }
+]
+
+const Navbar = () => {
+
+
+  const [width, setWidth] = useState(0)
+
+
+  function SetDisplayWidth() {
+    setWidth(window.innerWidth)
+  }
+  setInterval(SetDisplayWidth, 250)
+  
+
+  function NavMenuDisplay() {
+    // make sure same as xs media query in tailwind.config.js when doing checks
+    if (width > 1023) {
+      return <ul className='flex flex-row ease-in-out transition-all basis-4/12 group-hover:basis-5/12 last:border-r-0'>
+        {navList.map((item, i, isLast) => {
+          return <NavItem
+            key={uuidv4()}
+            text={item.text}
+            url={item.url}
+            isLast={i === navList.length - 1 ? true : false} />
+        })}
+      </ul>
+    } else {
+      return (
+        //HAMBURGER MENU
+        <button href="https://www.google.com" onClick={{}}>
+          <div class="space-y-1 hover:space-y-2 mr-5">
+            <span class="block w-8 h-1 bg-[#FCE8DE]"></span>
+            <span class="block w-8 h-1 bg-[#FCE8DE]"></span>
+            <span class="block w-8 h-1 bg-[#FCE8DE]"></span>
+          </div>
+        </button>
+      )
+    }
+  }
+
+
+  return (
+    <>
+      <nav className='group text-[#FCE8DE] h-16 hover:h-20 grid grid-cols-12 bg-[#3B1524] justify-around shadow-md ease-in-out transition-all duration-500'>
+        <div className='my-auto py-auto col-span-3 text-center'>
+          <h1 className='font-bold font-PassionsConflict xs:text-[1.2rem] lg:text-[2rem] mx-auto'>Project <span>Mayce</span></h1>
+        </div>
+        <div className='col-span-9 col-start-5 my-auto flex flex-row-reverse'>
+          {NavMenuDisplay()}
+          {/* <ul className='flex flex-row ease-in-out transition-all basis-4/12 hover:basis-5/12 last:border-r-0'>
+            {navList.map((item, i, isLast) => {
+              return <NavItem
+                      key={uuidv4()}
+                      text={item.text}
+                      url={item.url} 
+                      isLast={i === navList.length-1 ? true : false}/>
+            })}
+          </ul> */}
+          <div className='basis-1/6'></div>
+        </div>
+      </nav>
+    </>
+
+  )
+}
+
+export default Navbar
