@@ -10,7 +10,7 @@ const ArtCard = ({title, description, image}) => {
 
   return (
     <>
-      <div className='flex flex-col md:mb-8 sm:mb-5'>
+      <div className='flex flex-col md:mb-8 xs:py-5 lg:py-0'>
         <div className='min-h-fit w-full bg-[#FCE8DE] border-2 rounded-xl shadow-md p-5'>
           <a onClick={openModal}>
             <img src={image} className='pb-5 cursor-pointer' alt={title}/>

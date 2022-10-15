@@ -20,13 +20,13 @@ const Navbar = () => {
   function SetDisplayWidth() {
     setWidth(window.innerWidth)
   }
-  setInterval(SetDisplayWidth, 250)
+  setInterval(SetDisplayWidth, 125)
   
 
   function NavMenuDisplay() {
     // make sure same as xs media query in tailwind.config.js when doing checks
     if (width > 1023) {
-      return <ul className='flex flex-row ease-in-out transition-all basis-4/12 group-hover:basis-5/12 last:border-r-0'>
+      return <ul className='flex flex-row lg:ease-in-out lg:transition-all basis-4/12 group-hover:basis-5/12 last:border-r-0'>
         {navList.map((item, i, isLast) => {
           return <NavItem
             key={uuidv4()}
@@ -52,13 +52,13 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='group text-[#FCE8DE] h-16 hover:h-20 grid grid-cols-12 bg-[#3B1524] justify-around shadow-md ease-in-out transition-all duration-500'>
-        <div className='my-auto py-auto col-span-3 text-center'>
-          <h1 className='font-bold font-PassionsConflict xs:text-[1.2rem] lg:text-[2rem] mx-auto'>Project <span>Mayce</span></h1>
+      <nav className='group m text-[#FCE8DE] h-16 lg:hover:h-20 grid grid-cols-12 bg-[#3B1524] justify-around shadow-md lg:ease-in-out lg:transition-all duration-500'>
+        <div className='my-auto py-auto lg:col-span-3 xs:col-span-6 xs:col-start-4 text-center'>
+          <h1 className='font-bold font-PassionsConflict xs:text-[1.4rem] lg:text-[2rem] mx-auto'>Project <span>Mayce</span></h1>
         </div>
-        <div className='col-span-9 col-start-5 my-auto flex flex-row-reverse'>
+        <div className='lg:col-span-9 xs:col-span-1 lg:col-start-5 xs:col-start-12 my-auto flex flex-row-reverse'>
           {NavMenuDisplay()}
-          {/* <ul className='flex flex-row ease-in-out transition-all basis-4/12 hover:basis-5/12 last:border-r-0'>
+          {/* <ul classNddddddddddddddddddddddddddddddddddddddddddddddddddame='flex flex-row ease-in-out transition-all basis-4/12 hover:basis-5/12 last:border-r-0'>
             {navList.map((item, i, isLast) => {
               return <NavItem
                       key={uuidv4()}
