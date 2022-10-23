@@ -11,14 +11,14 @@ const ArtCard = ({title, description, image}) => {
   return (
     <>
       <div className='flex flex-col md:mb-8 xs:py-5 lg:py-0'>
-        <div className='min-h-fit w-full bg-[#FCE8DE] border-2 rounded-xl shadow-md p-5'>
+        {/* <div className='min-h-fit w-full bg-[#FCE8DE] border-2 rounded-xl shadow-md sm:p-0 lg:p-5'> */}
           <a onClick={openModal}>
-            <img src={image} className='pb-5 cursor-pointer' alt={title}/>
+            <img src={image} className='transition-all pb-5 cursor-pointer hover:scale-110' alt={title}/>
             <ArtModal showModal={showModal} setShowModal={setShowModal} image={image}/>
           </a>
-          {description}
+          {/* {description} */}
         </div>
-      </div>
+      {/* </div> */}
     </>
   )
 }

@@ -52,7 +52,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='group m text-[#FCE8DE] h-16 lg:hover:h-20 grid grid-cols-12 bg-[#3B1524] justify-around shadow-md lg:ease-in-out lg:transition-all duration-500'>
+      <nav className='sticky top-0 z-50 group m text-[#FCE8DE] h-16 lg:hover:h-20 grid grid-cols-12 bg-[#3B1524] justify-around shadow-md lg:ease-in-out lg:transition-all duration-500'>
         <div className='my-auto py-auto lg:col-span-3 xs:col-span-6 xs:col-start-4 text-center'>
           <h1 className='font-bold font-PassionsConflict xs:text-[1.4rem] lg:text-[2rem] mx-auto'>Project <span>Mayce</span></h1>
         </div>
