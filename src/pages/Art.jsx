@@ -11,7 +11,13 @@ const ArtItems = [
   { title: "coffee", description: "test", image: 'img/art/coffee.jpg' },
   { title: "fallentree", description: "test", image: 'img/art/fallentree.jpg' },
   { title: "cocacolatop", description: "test", image: 'img/art/cocacolatop.jpg' },
-  { title: "pyrabuilding", description: "test", image: 'img/art/pyrabuilding.jpg' }
+  { title: "pyrabuilding", description: "test", image: 'img/art/pyrabuilding.jpg' },
+  { title: "black", description: "test", image: 'img/art/black.jpg' },
+  { title: "snowmountains", description: "test", image: 'img/art/snowmountains.jpg' },
+  { title: "mountains", description: "test", image: 'img/art/mountains.jpg' },
+  { title: "food", description: "test", image: 'img/art/food.jpg' },
+  { title: "sunsetshore", description: "test", image: 'img/art/sunsetshore.jpg' },
+  { title: "rivercity", description: "test", image: 'img/art/rivercity.jpg' }
 ]
 
 
@@ -57,8 +63,8 @@ const Art = () => {
     
     if (width > 1023) {
       return (
-        <div className='sm:my-5 md:my-10 md:grid md:grid-cols-8 sm:flex flex-col gap-[3%]'>
-          <div className='col-span-1 col-start-4 w-full h-full'>
+        <div className='sm:my-5 md:my-10 md:grid md:grid-cols-10 sm:flex flex-col gap-[3%]'>   
+          <div className='col-span-2 col-start-2 w-full h-full'>
 
             {colOne.map((artItem, i) => {
               return <ArtCard
@@ -71,7 +77,7 @@ const Art = () => {
 
           </div>
 
-          <div className='col-span-1 col-start-5 w-full h-full'>
+          <div className='col-span-2 col-start-4 w-full h-full'>
 
             {colTwo.map((artItem, i) => {
               return <ArtCard
@@ -84,7 +90,7 @@ const Art = () => {
 
           </div>
 
-          <div className='col-span-1 col-start-6 w-full h-full'>
+          <div className='col-span-2 col-start-6 w-full h-full'>
 
             {colThree.map((artItem, i) => {
               return <ArtCard
@@ -97,7 +103,7 @@ const Art = () => {
 
           </div>
 
-          <div className='col-span-1 col-start-7 w-full h-full'>
+          <div className='col-span-2 col-start-8 w-full h-full'>
 
             {colFour.map((artItem, i) => {
               return <ArtCard
