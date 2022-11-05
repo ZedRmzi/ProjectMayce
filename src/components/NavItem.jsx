@@ -7,7 +7,7 @@ const NavItem = ({key, text, url, isLast}) => {
 
   function addBorderRight() {
     if (isLast === false) {
-      return 'border-r-[1px] border-[#FCE8DE]'
+      return ''
     }
     else {
       return ''
@@ -17,7 +17,7 @@ const NavItem = ({key, text, url, isLast}) => {
   return (
       <li className={'text-center inline-block my-auto w-1/3 ' + addBorderRight()}>
         <Link to={url}>
-          <a className='my-auto hover:text-lg'>{text}</a>
+          <a className='my-auto text-[1.15rem] hover:text-[1.25rem]'>{text}</a>
         </Link>
       </li>
     )

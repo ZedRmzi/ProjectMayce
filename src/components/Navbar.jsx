@@ -40,9 +40,9 @@ const Navbar = () => {
         //HAMBURGER MENU
         <button href="https://www.google.com" onClick={{}}>
           <div class="space-y-1 hover:space-y-2 mr-5">
-            <span class="block w-8 h-1 bg-[#FCE8DE]"></span>
-            <span class="block w-8 h-1 bg-[#FCE8DE]"></span>
-            <span class="block w-8 h-1 bg-[#FCE8DE]"></span>
+            <span class="block w-8 h-1 bg-[#3B1524]"></span>
+            <span class="block w-8 h-1 bg-[#3B1524]"></span>
+            <span class="block w-8 h-1 bg-[#3B1524]"></span>
           </div>
         </button>
       )
@@ -52,13 +52,13 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='sticky top-0 z-50 group m text-[#FCE8DE] h-16 lg:hover:h-20 grid grid-cols-12 bg-[#3B1524] justify-around shadow-md lg:ease-in-out lg:transition-all duration-500'>
+      <nav className='group m text-[#3B1524] h-16 lg:hover:h-20 grid grid-cols-12 justify-around shadow-md lg:ease-in-out lg:transition-all duration-500'>
         <div className='my-auto py-auto lg:col-span-3 xs:col-span-6 xs:col-start-4 text-center'>
-          <h1 className='font-bold font-PassionsConflict xs:text-[1.4rem] lg:text-[2rem] mx-auto'>Project <span>Mayce</span></h1>
+          <h1 className='font-bold font-PassionsConflict xs:text-[1.4rem] lg:text-[2.5rem] mx-auto'>Project <span>Mayce</span></h1>
         </div>
         <div className='lg:col-span-9 xs:col-span-1 lg:col-start-5 xs:col-start-12 my-auto flex flex-row-reverse'>
           {NavMenuDisplay()}
-          {/* <ul classNddddddddddddddddddddddddddddddddddddddddddddddddddame='flex flex-row ease-in-out transition-all basis-4/12 hover:basis-5/12 last:border-r-0'>
+          {/* <ul className='flex flex-row ease-in-out transition-all basis-4/12 hover:basis-5/12 last:border-r-0'>
             {navList.map((item, i, isLast) => {
               return <NavItem
                       key={uuidv4()}
