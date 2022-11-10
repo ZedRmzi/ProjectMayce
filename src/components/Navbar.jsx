@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-import { isButtonElement } from 'react-router-dom'
 import NavItem from './NavItem'
 import { v4 as uuidv4 } from 'uuid';
-import { useTransition } from 'react';
 
 
 const navList = [
@@ -38,7 +36,7 @@ const Navbar = () => {
     } else {
       return (
         //HAMBURGER MENU
-        <button href="https://www.google.com" onClick={{}}>
+        <button onClick={{}}>
           <div class="space-y-1 hover:space-y-2 mr-5">
             <span class="block w-8 h-1 bg-[#3B1524]"></span>
             <span class="block w-8 h-1 bg-[#3B1524]"></span>

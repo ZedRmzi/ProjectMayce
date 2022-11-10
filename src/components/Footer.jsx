@@ -18,13 +18,13 @@ const Footer = () => {
 
         <div id='copyright' className='flex flex-col  justify-around pt-5 pb-10'>
           <div className='flex mx-auto'>
-            <a href='https://www.facebook.com/mayce.albakri'><i class="fa-brands fa-facebook-f"></i></a>
-            <a href='https://www.twitter.com/'className='ml-4'><i class="fa-brands fa-twitter"></i></a>
-            <a href='https://www.instagram.com/maycealbakri/' className='ml-4'><i class="fa-brands fa-instagram fa-lg"></i></a>
-            <a href='https://www.tiktok.com/@maycespalette' className='ml-4'><i class="fa-brands fa-tiktok"></i></a>
+            <a href='https://www.facebook.com/mayce.albakri' className='p-1'><i class="fa-brands fa-facebook-f"></i></a>
+            <a href='https://www.twitter.com/'className='ml-4 p-1'><i class="fa-brands fa-twitter"></i></a>
+            <a href='https://www.instagram.com/maycealbakri/' className='ml-4 p-1'><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href='https://www.tiktok.com/@maycespalette' className='ml-4 p-1'><i class="fa-brands fa-tiktok"></i></a>
           </div>
           <div className='mx-auto mt-5'>
-            Copyright © 2022 <span className='text-gray-500'>Powered by Zeid Ramzi <a href='https://github.com/ZedRmzi' className=''><i class="fa-brands fa-github"></i></a></span> 
+            Copyright © 2022 <span className='text-gray-500'>Powered by <a href='https://github.com/ZedRmzi' className=''>Zeid Ramzi <i class="fa-brands fa-github"></i></a></span> 
           </div>
         </div>
       </div>

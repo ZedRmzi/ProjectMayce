@@ -28,11 +28,6 @@ var colThree = []
 var colFour = []
 var count = 1
 
-// ArtItems.forEach((e, i) => i % 4 === 0 ? colOne.push(e) : null)
-// ArtItems.forEach((e, i) => i % 4 === 1 ? colTwo.push(e) : null)
-// ArtItems.forEach((e, i) => i % 4 === 2 ? colThree.push(e) : null)
-// ArtItems.forEach((e, i) => i % 4 === 3 ? colFour.push(e) : null)
-
 ArtItems.forEach((e,i) => {
   if (i % 3 === 0) {
     colOne.push(e)
@@ -136,53 +131,26 @@ const Art = () => {
       )
     }
   }
+
   return (
-
     <>
-      {ArtPageDisplay()}
+      {/* {ArtPageDisplay()} */}
+      <div className='lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:space-y-0 mt-6 flex flex-col mx-auto lg:items-center'>
+      {ArtItems.map((artItem, i) => {
+              return <>
+                <div className='max-w-sm flex-initial lg:px-3 lg:my-auto lg:object-contain'>
+                  <ArtCard
+                    key={uuidv4()}
+                    title={artItem.title}
+                    description={artItem.description}
+                    image={artItem.image}
+                  />
+                </div>
+              </>
+
+            })}
+      </div>
     </>
-
-    // <div className='sm:my-5 md:my-10 md:grid md:grid-cols-8 sm:flex flex-col gap-[3%]'>
-    //   <div className='col-span-2 col-start-2 w-full h-full'>
-
-    //     {colOne.map((artItem, i) => {
-    //       return <ArtCard
-    //         key={uuidv4()}
-    //         title={artItem.title}
-    //         description={artItem.description}
-    //         image={artItem.image}
-    //       />
-    //     })}
-
-    //   </div>
-
-    //   <div className='col-span-2 col-start-4 w-full h-full'>
-
-    //     {colTwo.map((artItem, i) => {
-    //       return <ArtCard
-    //         key={uuidv4()}
-    //         title={artItem.title}
-    //         description={artItem.description}
-    //         image={artItem.image}
-    //       />
-    //     })}
-
-    //   </div>
-
-    //   <div className='col-span-2 col-start-6 w-full h-full'>
-
-    //     {colThree.map((artItem, i) => {
-    //       return <ArtCard
-    //         key={uuidv4()}
-    //         title={artItem.title}
-    //         description={artItem.description}
-    //         image={artItem.image}
-    //       />
-    //     })}
-
-    //   </div>
-
-    // </div>
   )
 }
 
