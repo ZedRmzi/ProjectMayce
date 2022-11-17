@@ -5,19 +5,19 @@ import ArtCard from '../components/ArtCard.jsx'
 
 // object to hold art img info in public/img/art
 const ArtItems = [
-  { title: "protestor", description: "test", image: 'img/art/cocacolatop.jpg' },
-  { title: "peaceflag", description: "test", image: 'img/art/peaceflag.jpg' },
-  { title: "building", description: "test", image: 'img/art/building.jpg' },
-  { title: "coffee", description: "test", image: 'img/art/coffee.jpg' },
-  { title: "rivercity", description: "test", image: 'img/art/rivercity.jpg' },
-  { title: "cocacolatop", description: "test", image: 'img/art/cocacolatop.jpg' },
-  { title: "pyrabuilding", description: "test", image: 'img/art/pyrabuilding.jpg' },
-  { title: "black", description: "test", image: 'img/art/black.jpg' },
-  { title: "snowmountains", description: "test", image: 'img/art/snowmountains.jpg' },
-  { title: "mountains", description: "test", image: 'img/art/mountains.jpg' },
-  { title: "food", description: "test", image: 'img/art/food.jpg' },
-  { title: "sunsetshore", description: "test", image: 'img/art/sunsetshore.jpg' },
-  { title: "fallentree", description: "test", image: 'img/art/fallentree.jpg' }
+  { title: "protestor", description: "test", image: 'ProjectMayce/img/art/cocacolatop.jpg' },
+  { title: "peaceflag", description: "test", image: 'ProjectMayce/img/art/peaceflag.jpg' },
+  { title: "building", description: "test", image: 'ProjectMayce/img/art/building.jpg' },
+  { title: "coffee", description: "test", image: 'ProjectMayce/img/art/coffee.jpg' },
+  { title: "rivercity", description: "test", image: 'ProjectMayce/img/art/rivercity.jpg' },
+  { title: "cocacolatop", description: "test", image: 'ProjectMayce/img/art/cocacolatop.jpg' },
+  { title: "pyrabuilding", description: "test", image: 'ProjectMayce/img/art/pyrabuilding.jpg' },
+  { title: "black", description: "test", image: 'ProjectMayce/img/art/black.jpg' },
+  { title: "snowmountains", description: "test", image: 'ProjectMayce/img/art/snowmountains.jpg' },
+  { title: "mountains", description: "test", image: 'ProjectMayce/img/art/mountains.jpg' },
+  { title: "food", description: "test", image: 'ProjectMayce/img/art/food.jpg' },
+  { title: "sunsetshore", description: "test", image: 'ProjectMayce/img/art/sunsetshore.jpg' },
+  { title: "fallentree", description: "test", image: 'ProjectMayce/img/art/fallentree.jpg' }
 ]
 
 
@@ -135,7 +135,7 @@ const Art = () => {
   return (
     <>
       {/* {ArtPageDisplay()} */}
-      <div className='lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:space-y-0 mt-6 flex flex-col mx-auto lg:items-center'>
+      <div className='lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:mx-[120px] lg:space-y-0 mt-10 flex flex-col mx-auto lg:items-center'>
       {ArtItems.map((artItem, i) => {
               return <>
                 <div className='max-w-sm flex-initial lg:px-3 lg:my-auto lg:object-contain'>
