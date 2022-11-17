@@ -5,19 +5,19 @@ import ArtCard from '../components/ArtCard.jsx'
 
 // object to hold art img info in public/img/art
 const ArtItems = [
-  { title: "protestor", description: "test", image: 'ProjectMayce/img/art/cocacolatop.jpg' },
-  { title: "peaceflag", description: "test", image: 'ProjectMayce/img/art/peaceflag.jpg' },
-  { title: "building", description: "test", image: 'ProjectMayce/img/art/building.jpg' },
-  { title: "coffee", description: "test", image: 'ProjectMayce/img/art/coffee.jpg' },
-  { title: "rivercity", description: "test", image: 'ProjectMayce/img/art/rivercity.jpg' },
-  { title: "cocacolatop", description: "test", image: 'ProjectMayce/img/art/cocacolatop.jpg' },
-  { title: "pyrabuilding", description: "test", image: 'ProjectMayce/img/art/pyrabuilding.jpg' },
-  { title: "black", description: "test", image: 'ProjectMayce/img/art/black.jpg' },
-  { title: "snowmountains", description: "test", image: 'ProjectMayce/img/art/snowmountains.jpg' },
-  { title: "mountains", description: "test", image: 'ProjectMayce/img/art/mountains.jpg' },
-  { title: "food", description: "test", image: 'ProjectMayce/img/art/food.jpg' },
-  { title: "sunsetshore", description: "test", image: 'ProjectMayce/img/art/sunsetshore.jpg' },
-  { title: "fallentree", description: "test", image: 'ProjectMayce/img/art/fallentree.jpg' }
+  { title: "protestor", description: "test", image: './projectmayce/img/art/cocacolatop.jpg' },
+  { title: "peaceflag", description: "test", image: './projectmayce/img/art/peaceflag.jpg' },
+  { title: "building", description: "test", image: './projectmayce/img/art/building.jpg' },
+  { title: "coffee", description: "test", image: './projectmayce/img/art/coffee.jpg' },
+  { title: "rivercity", description: "test", image: './projectmayce/img/art/rivercity.jpg' },
+  { title: "cocacolatop", description: "test", image: './projectmayce/img/art/cocacolatop.jpg' },
+  { title: "pyrabuilding", description: "test", image: './projectmayce/img/art/pyrabuilding.jpg' },
+  { title: "black", description: "test", image: './projectmayce/img/art/black.jpg' },
+  { title: "snowmountains", description: "test", image: './projectmayce/img/art/snowmountains.jpg' },
+  { title: "mountains", description: "test", image: './projectmayce/img/art/mountains.jpg' },
+  { title: "food", description: "test", image: './projectmayce/img/art/food.jpg' },
+  { title: "sunsetshore", description: "test", image: './projectmayce/img/art/sunsetshore.jpg' },
+  { title: "fallentree", description: "test", image: './projectmayce/img/art/fallentree.jpg' }
 ]
 
 
