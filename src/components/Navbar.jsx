@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 const navList = [
-  { text: "Art", url: "/" },
+  { text: "Art", url: "/ProjectMayce" },
   { text: "About", url: "/About" },
   { text: "More", url: "/More" }
 ]

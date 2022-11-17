@@ -5,7 +5,7 @@ import ArtCard from '../components/ArtCard.jsx'
 
 // object to hold art img info in public/img/art
 const ArtItems = [
-  { title: "protestor", description: "test", image: 'img/art/protestor.jpg' },
+  { title: "protestor", description: "test", image: 'img/art/cocacolatop.jpg' },
   { title: "peaceflag", description: "test", image: 'img/art/peaceflag.jpg' },
   { title: "building", description: "test", image: 'img/art/building.jpg' },
   { title: "coffee", description: "test", image: 'img/art/coffee.jpg' },

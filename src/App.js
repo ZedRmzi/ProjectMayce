@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route, useLocation,} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom";
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Art from './pages/Art';
