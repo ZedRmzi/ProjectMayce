@@ -23,8 +23,8 @@ function App() {
 
               <Routes>
                 <Route path='/projectmayce' element={<Art />} />
-                <Route path='/About' element={<About />} />
-                <Route path='/More' element={<More />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/more' element={<More />} />
               </Routes>
               <Footer />
             </Router>

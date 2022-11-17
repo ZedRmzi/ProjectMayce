@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ProjectMayce/static/css/main.464dc87c.css",
-    "main.js": "/ProjectMayce/static/js/main.1fd0c0a0.js",
-    "static/js/787.5de447d7.chunk.js": "/ProjectMayce/static/js/787.5de447d7.chunk.js",
-    "static/media/IMG_5177.jpg": "/ProjectMayce/static/media/IMG_5177.28b22c182963d2b5b6aa.jpg",
-    "index.html": "/ProjectMayce/index.html",
-    "main.464dc87c.css.map": "/ProjectMayce/static/css/main.464dc87c.css.map",
-    "main.1fd0c0a0.js.map": "/ProjectMayce/static/js/main.1fd0c0a0.js.map",
-    "787.5de447d7.chunk.js.map": "/ProjectMayce/static/js/787.5de447d7.chunk.js.map"
+    "main.css": "/projectmayce/static/css/main.464dc87c.css",
+    "main.js": "/projectmayce/static/js/main.3dd9aad7.js",
+    "static/js/787.5de447d7.chunk.js": "/projectmayce/static/js/787.5de447d7.chunk.js",
+    "static/media/IMG_5177.jpg": "/projectmayce/static/media/IMG_5177.28b22c182963d2b5b6aa.jpg",
+    "index.html": "/projectmayce/index.html",
+    "main.464dc87c.css.map": "/projectmayce/static/css/main.464dc87c.css.map",
+    "main.3dd9aad7.js.map": "/projectmayce/static/js/main.3dd9aad7.js.map",
+    "787.5de447d7.chunk.js.map": "/projectmayce/static/js/787.5de447d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.464dc87c.css",
-    "static/js/main.1fd0c0a0.js"
+    "static/js/main.3dd9aad7.js"
   ]
 }

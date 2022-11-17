@@ -1,7 +1,7 @@
 {
   "name": "projectmayce",
   "version": "0.1.0",
-  "homepage": "https://ZedRmzi.github.io/ProjectMayce",
+  "homepage": "https://zedrmzi.github.io/projectmayce",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
