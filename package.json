@@ -1,7 +1,7 @@
 {
   "name": "projectmayce",
   "version": "0.1.0",
-  "homepage": "https://zedrmzi.github.io/ProjectMayce",
+  "homepage": "https://ZedRmzi.github.io/ProjectMayce",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -64,12 +64,13 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
+    "start": "node scripts/start.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "build-localhost": "PUBLIC_URL=/ node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
