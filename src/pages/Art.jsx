@@ -135,7 +135,7 @@ const Art = () => {
   return (
     <>
       {/* {ArtPageDisplay()} */}
-      <div className='lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:mx-[120px] lg:space-y-0 mt-10 flex flex-col mx-auto lg:items-center'>
+      <div className='lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:mx-[120px] lg:space-y-0 lg:mb-5 mt-10 flex flex-col mx-auto lg:items-center'>
       {ArtItems.map((artItem, i) => {
               return <>
                 <div className='max-w-sm flex-initial lg:px-3 lg:my-auto lg:object-contain'>
