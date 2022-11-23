@@ -47,6 +47,11 @@ h1#loadingtitle {
   100% { opacity: 1; }
 }
 
+br {
+  display: block;
+  margin: 30px 0;
+  line-height:22px;
+}
 
 body {
   background-color: #FFFF;
@@ -76,6 +81,28 @@ nav {
   }
 }
 
+
+@layer components {
+  input {
+    outline: none;
+    @apply bg-transparent hover:bg-transparent active:bg-transparent focus:bg-transparent;
+    @apply focus:border-l-[4px] focus:py-1 focus:border-[#E82E88];
+    @apply border-l-[2px] border-b-[2px]  pl-2 border-[#631543] mt-1 mb-6 rounded-md;
+  }
+
+  input#submit {
+    @apply border-[2px] hover:border-[#E82E88] py-2 lg:w-1/6 w-1/2;
+  }
+
+  textarea {
+    outline: none; /* remove this line to return default outline behavior of input tags */ 
+    resize: none;
+    @apply bg-transparent hover:bg-transparent active:bg-transparent focus:bg-transparent;
+    @apply focus:border-l-[4px] focus:py-1 focus:border-[#E82E88];
+    @apply border-l-[2px] border-b-[2px]  pl-2 border-[#631543] mt-1 mb-6 rounded-md;
+  }
+}
+
 .example-enter {
   opacity: 0.01;
 }
@@ -92,4 +119,19 @@ nav {
 .example-leave.example-leave-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in;
+}
+
+#lilly {
+  background-image: url(../public/img/more/lilly.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#filter {
+  background: rgba(59, 21, 36, 0.6);
+}
+
+#contact {
+  /* background: rgba(59, 21, 36, ); */
 }

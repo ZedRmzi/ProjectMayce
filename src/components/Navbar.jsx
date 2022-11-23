@@ -50,9 +50,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='group m text-[#3B1524] h-16 lg:hover:h-20 grid grid-cols-12 justify-around shadow-md lg:ease-in-out lg:transition-all duration-500'>
+      <nav className='group m text-[#3B1524] lg:hover:py-2 grid grid-cols-12 justify-around shadow-md ease-in-out transition-all duration-500'>
         <div className='my-auto py-auto lg:col-span-3 xs:col-span-6 xs:col-start-4 text-center'>
-          <h1 className='font-bold font-PassionsConflict xs:text-[1.4rem] lg:text-[2.5rem] mx-auto'>Project <span>Mayce</span></h1>
+          <h1 className='font-bold font-PassionsConflict lg:text-[3rem] mx-auto'>Project <span>Mayce</span></h1>
         </div>
         <div className='lg:col-span-9 xs:col-span-1 lg:col-start-5 xs:col-start-12 my-auto flex flex-row-reverse'>
           {NavMenuDisplay()}

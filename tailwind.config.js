@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Roboto: ['Roboto', 'sans-serif'],
-        PassionsConflict: ['Passions Conflict', 'cursive']
+        PassionsConflict: ['Passions Conflict', 'cursive'],
+        Noto: ['Noto Sans', 'sans-serif']
       },
     },
     screens: {

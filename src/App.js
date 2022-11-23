@@ -26,7 +26,7 @@ function App() {
                 <Route path='/about' element={<About />} />
                 <Route path='/more' element={<More />} />
               </Routes>
-              <Footer />
+              <Footer className='b-0 absolute'/>
             </Router>
       </div>
     </div>

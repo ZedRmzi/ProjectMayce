@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 const Footer = () => {
 
   return (
-    <footer className='mt-auto bottom-0 text-[#3B1524] border-solid border-[#3B1524]'>
+    <footer className='mt-auto pt-5 bottom-0 text-[#3B1524] border-solid border-[#3B1524]'>
       <div className='bg-white'>
 
         {/* <div id='socials' className='flex justify-around'> */}
@@ -16,7 +16,7 @@ const Footer = () => {
           
           </div> */}
 
-        <div id='copyright' className='flex flex-col  justify-around pt-5 pb-10'>
+        <div id='copyright' className='flex flex-col justify-around pt-5 pb-10'>
           <div className='flex mx-auto'>
             <a href='https://www.facebook.com/mayce.albakri' className='p-1'><i class="fa-brands fa-facebook-f"></i></a>
             <a href='https://www.twitter.com/'className='ml-4 p-1'><i class="fa-brands fa-twitter"></i></a>
