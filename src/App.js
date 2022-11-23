@@ -13,9 +13,9 @@ function App() {
 
     <div>
       <div id='loading'>
-        <h1>
+
         <h1 id='loadingtitle' className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold font-PassionsConflict lg:text-[5rem]'>Project <span>Mayce</span></h1>
-        </h1>
+
       </div>
       <div className='flex flex-col min-h-screen'>
           <Router>
