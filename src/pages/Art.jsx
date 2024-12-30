@@ -5,19 +5,15 @@ import ArtCard from '../components/ArtCard.jsx'
 
 // object to hold art img info in public/img/art
 const ArtItems = [
-  { title: "protestor", description: "test", image: '/projectmayce/img/art/protestor.jpg' },
-  { title: "peaceflag", description: "test", image: '/projectmayce/img/art/peaceflag.jpg' },
-  { title: "building", description: "test", image: '/projectmayce/img/art/building.jpg' },
-  { title: "coffee", description: "test", image: '/projectmayce/img/art/coffee.jpg' },
-  { title: "rivercity", description: "test", image: '/projectmayce/img/art/rivercity.jpg' },
-  { title: "cocacolatop", description: "test", image: '/projectmayce/img/art/cocacolatop.jpg' },
-  { title: "pyrabuilding", description: "test", image: '/projectmayce/img/art/pyrabuilding.jpg' },
-  { title: "black", description: "test", image: '/projectmayce/img/art/black.jpg' },
-  { title: "snowmountains", description: "test", image: '/projectmayce/img/art/snowmountains.jpg' },
-  { title: "mountains", description: "test", image: '/projectmayce/img/art/mountains.jpg' },
-  { title: "food", description: "test", image: '/projectmayce/img/art/food.jpg' },
-  { title: "sunsetshore", description: "test", image: '/projectmayce/img/art/sunsetshore.jpg' },
-  { title: "fallentree", description: "test", image: '/projectmayce/img/art/fallentree.jpg' }
+  { title: "1", description: "test", image: '/projectmayce/img/art/1.jpg' },
+  { title: "2", description: "test", image: '/projectmayce/img/art/2.jpg' },
+  { title: "3", description: "test", image: '/projectmayce/img/art/3.jpg' },
+  { title: "4", description: "test", image: '/projectmayce/img/art/4.jpg' },
+  { title: "5", description: "test", image: '/projectmayce/img/art/5.jpg' },
+  { title: "6", description: "test", image: '/projectmayce/img/art/6.jpg' },
+  { title: "7", description: "test", image: '/projectmayce/img/art/7.jpg' },
+  { title: "8", description: "test", image: '/projectmayce/img/art/8.jpg' },
+  { title: "9", description: "test", image: '/projectmayce/img/art/9.jpg' }
 ]
 
 
